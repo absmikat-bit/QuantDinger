@@ -1,0 +1,52 @@
+{
+  "data_file": "XAUUSD.sc_M1_202208290100_202609302357.csv",
+  "backtest": {
+    "symbol": "XAUUSD.sc",
+    "direction": "BUY",
+    "signal_hour": 9,
+    "signal_minute": 34,
+    "take_profit_pips": 55,
+    "stop_loss_pips": 68,
+    "pip_size": 0.1,
+    "trading_days": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "same_bar_rule": 0,
+    "max_hold_bars": 0,
+    "initial_balance": 25000,
+    "dd_risk_percent": 0.7,
+    "min_resolved_trades": 30
+  },
+  "optimization": {
+    "signal_hours": [
+      0,
+      23,
+      1
+    ],
+    "signal_minutes": [
+      0,
+      59,
+      1
+    ],
+    "take_profit_pips": [
+      50,
+      100,
+      5
+    ],
+    "stop_loss_pips": [
+      50,
+      100,
+      5
+    ],
+    "directions": [
+      "BUY"
+    ],
+    "top": 20
+  }
+}

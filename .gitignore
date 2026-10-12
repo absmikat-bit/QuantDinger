@@ -102,3 +102,7 @@ backend_api_python/data/memory/
 # Docker
 # ========================
 docker-compose.override.yml
+
+# FTMO backtest data
+mt5_python_backtest/*.csv
+!mt5_python_backtest/FTMO XAUUSD_M1_202208290105_202609302349.csv.gz
