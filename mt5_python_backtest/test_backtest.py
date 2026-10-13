@@ -75,10 +75,10 @@ class BacktestTests(unittest.TestCase):
                 fixed.same_bar_rule,
                 fixed.max_hold_bars,
             ),
-            ("BUY", 18, 10, 55, 68, 0.1, 25000, 1.0, 0, 0),
+            ("BUY", 9, 34, 55, 68, 0.1, 25000, 0.7, 0, 0),
         )
-        signal = Bar(datetime(2024, 1, 1, 18, 10), 100, 100, 100, 100)
-        tp_bar = Bar(datetime(2024, 1, 1, 18, 11), 100, 105.5, 100, 100)
+        signal = Bar(datetime(2024, 1, 1, 9, 34), 100, 100, 100, 100)
+        tp_bar = Bar(datetime(2024, 1, 1, 9, 35), 100, 105.5, 100, 100)
         result, _ = run_backtest([signal, tp_bar], fixed)
         self.assertEqual((result.wins, result.losses, result.pending), (1, 0, 0))
 

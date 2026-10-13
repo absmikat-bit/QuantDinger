@@ -27,9 +27,9 @@ and price precision yourself; the engine does not infer it.
 
 `config.json` contains the requested validation configuration:
 
-- BUY at 18:10
+- BUY at 09:34
 - TP 55 pips, SL 68 pips, pip size 0.1
-- Initial balance $25,000 and 1% risk
+- Initial balance $25,000 and 0.7% risk
 - Same-bar rule 0 (SL first), unlimited hold
 
 The configured weekday filter is Monday-Friday and can be edited in the JSON.

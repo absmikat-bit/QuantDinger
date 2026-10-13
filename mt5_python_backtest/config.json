@@ -1,5 +1,5 @@
 {
-  "data_file": "XAUUSD.sc_M1_202208290100_202609302357.csv",
+  "data_file": "FTMO XAUUSD_M1_202208290105_202609302349.csv",
   "backtest": {
     "symbol": "XAUUSD.sc",
     "direction": "BUY",
